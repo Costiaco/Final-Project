@@ -1,0 +1,93 @@
+body {
+    min-height: 100vh;
+    max-width: 100%;
+    margin: auto;
+    margin: 0 auto;
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+}
+
+/*********************** HEADER/NAVBAR ****************************/
+nav {
+    width: 100%;
+    height: 150px;
+    font-size: 22px;
+    position: fixed;
+}
+.navbar {
+    background-color: white;
+    margin-bottom: 10px;
+    height: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-button {
+    background-color: white;
+    border: 0px;
+    display: flex;
+    align-items: center !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #5A2C89;
+}
+.btn-nav:hover {
+    color: #EB008B;
+}
+.menu {
+    display: flex;
+    height: 100%;
+}
+
+@media (max-width: 1100px) {
+    .navbar{
+    padding-left: 1px;
+    padding-right: 1px;
+    }
+    .logo {
+        margin-left: 3rem;
+    }
+    .nav-button{
+    display: none;
+    }
+}
+
+/********************** FIRST SECTION *****************************/
+.first-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #EB008B;
+    border-radius: 120px 0px;
+    height: 538px;
+    margin: 0;
+}
+.about-box {
+    padding: 1%;
+    display: flex;
+}
+.about-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px!important;
+    color: #FFFFFF!important;
+    align-items: center;
+    justify-content: center;
+}
+.about-text {
+    font-style: normal;
+    font-size: 24px!important;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding: 10px;
+    max-width: 500px;
+}
+.about-me {
+    background-image:url(https://cdn.discordapp.com/attachments/754456088409276466/1068390575751045200/profile-pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 120px 0px;
+    background-position-x: center;
+}
+/*i have to fix this*/
