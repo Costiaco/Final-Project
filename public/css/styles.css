@@ -30,9 +30,9 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
     text-decoration: none;
-    color: #5A2C89;
+    color: black;
 }
-.btn-nav:hover {
+.nav-button:hover {
     color: #EB008B;
 }
 .menu {
@@ -56,38 +56,208 @@ nav {
 /********************** FIRST SECTION *****************************/
 .first-section {
     width: 100%;
+    background-color: #EB008B;
+    border-radius: 120px;
+    margin: 2rem 0;
+}
+
+.my-name {
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+.first-art {
     display: flex;
     flex-direction: row;
-    background-color: #EB008B;
-    border-radius: 120px 0px;
-    height: 538px;
-    margin: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .about-box {
     padding: 1%;
+    float: left;
     display: flex;
 }
-.about-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px!important;
-    color: #FFFFFF!important;
-    align-items: center;
-    justify-content: center;
-}
+
 .about-text {
     font-style: normal;
-    font-size: 24px!important;
+    font-size: 20px!important;
     line-height: 36px;
     color: #FFFFFF;
     padding: 10px;
     max-width: 500px;
 }
 .about-me {
-    background-image:url(https://cdn.discordapp.com/attachments/754456088409276466/1068390575751045200/profile-pic1.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 120px 0px;
-    background-position-x: center;
+    display: flex;
+    padding: 2%;
+    margin-left: 1rem;
 }
-/*i have to fix this*/
+
+.profile-pic {
+    height: 320px;
+    width: 298px;
+    border-radius: 25%;
+}
+
+/************************** SECOND SECTION ***********************/
+.second-section {
+    background-color: pink;
+    padding-bottom: 2rem;
+    border-radius: 120px;
+    margin: 2rem 0;
+}
+
+.title-box {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #580d39;
+    font-weight: 900!important;
+    line-height: 58px;
+    font-size: 40px;
+}
+
+.edu-bigbox {
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu-container {
+    background-color: lightpink;
+    margin: 0 2%;
+    width: 45%;
+    border-style: double;
+    border-color: #580d39;
+}
+
+.edu-tab {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.edu-tab-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+.edu-box {
+    padding: 0 2rem;
+}
+
+.edu-box-title {
+    margin: 1%;
+    font-size: 18px;
+}
+
+.edu-box-text {
+    margin: 1%;
+}
+
+hr {
+    color: black;
+    border-color: black;
+}
+
+/******************* THIRD SECTION *******************/
+.third-section {
+    background-color: #5a2544;
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+    border-radius: 120px;
+    margin: 2rem 0;
+}
+
+.third-section h1 {
+    color: #FFFFFF;
+}
+
+.skills-container {
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-tab {
+    margin: 0 2%;
+    width: 45%;
+    border-style: double;
+    border-color: lightpink;
+
+}
+
+.skills-tab-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.skills-box {
+    padding: 0 2rem;
+    margin: 1%;
+    font-size: 18px;
+}
+
+/******************* FOURTH SECTION *****************/
+.fourth-section {
+    background-color: #ecb6b6;
+    color: black;
+    padding-bottom: 2rem;
+    border-radius: 120px;
+    margin: 2rem 0;
+}
+
+.xp-art {
+    display: grid;
+    grid-template-columns: 460px 460px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin: 0 4rem;
+}
+.xp-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    }
+
+.xp-job {
+    margin: 0;
+    font-size: 26px;
+}
+
+.xp-date {
+    margin: 1%;
+}
