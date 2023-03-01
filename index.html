@@ -105,10 +105,7 @@
                         <li class="skills-list">HTML</li>
                         <li class="skills-list">CSS</li>
                         <li class="skills-list">JavaScript</li>
-                        <li class="skills-list"></li>
-                        <li class="skills-list"></li>
-                        <li class="skills-list"></li>
-                        <li class="skills-list"></li>
+                        <li class="skills-list">Bootstrap</li>
                     </ul>
                 </div>
             </div>
@@ -170,45 +167,46 @@
         </div>
         <div class="info">
             <div class="contact-info">
-            <div class="info-title"><h5>Información de contacto</h5></div>
-            <div class="info-list">
-                <ul>
-                    <li><a href="tel:+5492324582685">Teléfono</a></li>
-                    <li><a href="https://api.whatsapp.com/send?&phone=+5492324582685&text=Hola%20Camila%20te%20quiero%20contactar">WhatsApp</a></li>
-                    <li><a href="mailto:camila.lu.acosta@gmail.com">E-mail</a></li>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                    <li>LinkedIn</li>
-                </ul>
+                <div class="info-title"><h5>Información de contacto</h5></div>
+                <div class="info-list">
+                    <a href="tel:+5492324582685"><i class="fa-solid fa-mobile-screen-button"></i></a>
+                    <a href="https://api.whatsapp.com/send?&phone=+5492324582685&text=Hola%20Camila%20te%20quiero%20contactar"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:camila.lu.acosta@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/camila.manicura/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/camila-acosta-35b68b204/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="form" id="form">
+                <form action="https://formspree.io/f/mknabjdp" method="post" autocomplete="on">
+                    <div>
+                        <label for="name">Nombre</label><br>
+                        <input type="text" name="name" id="name" placeholder="Escriba su nombre" required>
+                    </div>
+                    <div>
+                        <label for="surname">Apellido</label><br>
+                        <input type="text" name="surname" id="surname" placeholder="Escriba su apellido" required>
+                    </div>
+                    <div>
+                        <label for="mail">E-mail</label><br>
+                        <input type="email" name="mail" id="mail" placeholder="Escriba su E-mail" required>
+                    </div>
+                    <div>
+                        <label for="phone">Teléfono</label><br>
+                        <input type="text" name="phone" id="phone" placeholder="Escriba su número de teléfono">
+                    </div>
+                    <div>
+                        <label for="message">Mensaje</label><br>
+                        <textarea cols="50" rows="15" name="message" id="message" placeholder="Escriba su mensaje" required></textarea>
+                    </div>
+                    <div>
+                        <input id="submit" type="submit" value=" Enviar mensaje">
+                    </div>
+                </form>
             </div>
         </div>
-        <div class="form">
-            <form action="" method="post" autocomplete="on">
-                <div>
-                    <label for="name">Nombre</label><br>
-                    <input type="text" name="name" id="name" placeholder="Escriba su nombre" required>
-                </div>
-                <div>
-                    <label for="surname">Apellido</label><br>
-                    <input type="text" name="surname" id="surname" placeholder="Escriba su apellido" required>
-            </div>
-            <div>
-                <label for="mail">E-mail</label><br>
-                <input type="email" name="mail" id="mail" placeholder="Escriba su E-mail" required>
-            </div>
-            <div>
-                <label for="phone">Teléfono</label><br>
-                <input type="text" name="phone" id="phone" placeholder="Escriba su número de teléfono">
-            </div>
-            <div>
-                <label for="message">Mensaje</label><br>
-                <input type="textarea" name="message" id="message" placeholder="Escriba su mensaje" required>
-            </div>
-            <div>
-                <input type="submit" value="Enviar mensaje">
-            </div>
-        </form>
-    </div>
     </section>
+    
+    <script src="https://kit.fontawesome.com/2ef97f3f76.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
